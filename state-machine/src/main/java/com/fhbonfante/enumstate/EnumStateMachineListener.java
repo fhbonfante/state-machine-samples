@@ -8,7 +8,6 @@ import org.springframework.statemachine.listener.StateMachineListener;
 import org.springframework.statemachine.state.State;
 import org.springframework.statemachine.transition.Transition;
 
-import java.util.stream.Collectors;
 
 @Slf4j
 public class EnumStateMachineListener implements StateMachineListener<BookStates,BookEvents> {
